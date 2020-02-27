@@ -10,4 +10,4 @@ The lincence is free, you are free to share or distribute...
 If you have any troubles setting up the Texture Auto Assigner, contact me here https://matejvanco.com/contact/
 
 Preview\
-![](https://media.giphy.com/media/Y15Ve1RKkqKOSjZZgZ/giphy.gif)
+![](https://media.giphy.com/media/mEW55VnMw1on8H5xzq/giphy.gif)
