@@ -64,6 +64,8 @@ public class TextureAutoAssigner : EditorWindow
         s();
         if (GUILayout.Button("Assign Textures"))
         {
+            string storage_p1 = specPathToGetMaterials;
+            string storage_p2 = pathToGetTextures;
             specPathToGetMaterials += "/";
             pathToGetTextures += "/";
             allMaterials.Clear();
@@ -100,6 +102,9 @@ public class TextureAutoAssigner : EditorWindow
                     Debug.Log("Assigned to " + mm.name);
                 }
             }
+            specPathToGetMaterials = storage_p1;
+            pathToGetTextures = storage_p2;
+            
             AssetDatabase.Refresh();
         }
     }
